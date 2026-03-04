@@ -8,7 +8,7 @@ The project evaluates their performance, stability, and efficiency across CartPo
 Actor-Critic vs PPO vs GRPO – Benchmarks in RL & NLP
 
 <p align="center">
-<img src="images/rl_algorithms.png" width="720"><br>
+<img src="comparaison/reward LunarLander.png" width="720"><br>
 <i>Figure 1: Comparative RL Algorithms – Actor-Critic, PPO, GRPO</i>
 </p>
 
