@@ -27,14 +27,28 @@ Actor-Critic vs PPO vs GRPO – Benchmarks in RL & NLP
 ## Project Structure
 
 Code
-src/actor_critic/   → Actor-Critic implementation
-src/ppo/            → PPO implementation (RL and LM)
-src/grpo/           → GRPO implementation
-src/common/         → Utilities and configuration
-analysis/           → Scripts for results analysis
-notebooks/          → Comparison and visualization notebooks
-models/             → Trained models (CartPole, LunarLander, DistilGPT2)
-references/         → Bibliography and related articles
+graph TD
+    A[Project Root] --> B[src/]
+    A --> C[analysis/]
+    A --> D[notebooks/]
+    A --> E[models/]
+    A --> F[references/]
+
+    B --> B1[actor_critic/]
+    B --> B2[ppo/]
+    B --> B3[grpo/]
+    B --> B4[common/]
+
+    B1 --> BA[Actor-Critic Implementation]
+    B2 --> BB[PPO Implementation (RL + LM)]
+    B3 --> BC[GRPO Implementation]
+    B4 --> BD[Utilities & Config]
+
+    C --> CA[Scripts for Results Analysis]
+    D --> DA[Comparison & Visualization Notebooks]
+    E --> EA[Trained Models: CartPole, LunarLander, DistilGPT2]
+    F --> FA[Bibliography & Related Articles]
+
 
 ## Technologies
 
