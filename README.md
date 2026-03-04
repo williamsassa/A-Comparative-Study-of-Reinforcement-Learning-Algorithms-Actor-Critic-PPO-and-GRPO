@@ -26,11 +26,6 @@ Actor-Critic vs PPO vs GRPO – Benchmarks in RL & NLP
 
 ## Project Structure
 
-classDiagram
-    class ProjectRoot {
-        README.md
-    }
-
     ProjectRoot <|-- src
     ProjectRoot <|-- analysis
     ProjectRoot <|-- notebooks
