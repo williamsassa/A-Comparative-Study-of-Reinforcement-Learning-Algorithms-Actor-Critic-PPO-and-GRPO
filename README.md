@@ -1,7 +1,9 @@
-A Comparative Study of Reinforcement Learning Algorithms: Actor-Critic, PPO, and GRPO
-Project Overview
-A comparative study of Reinforcement Learning algorithms: Actor-Critic, Proximal Policy Optimization (PPO), and Generalized Reinforcement Policy Optimization (GRPO).  
-The project evaluates their performance, stability, and efficiency across CartPole, LunarLander, and language modeling tasks with DistilGPT2.
+ # A Comparative Study of Reinforcement Learning Algorithms: Actor-Critic, PPO, and GRPO
+ 
+## Project Overview
+
+**A comparative study of Reinforcement Learning algorithms: Actor-Critic, Proximal Policy Optimization (PPO), and Generalized Reinforcement Policy Optimization (GRPO).  
+The project evaluates their performance, stability, and efficiency across CartPole, LunarLander, and language modeling tasks with DistilGPT2.**
 
 Actor-Critic vs PPO vs GRPO – Benchmarks in RL & NLP
 
@@ -10,18 +12,20 @@ Actor-Critic vs PPO vs GRPO – Benchmarks in RL & NLP
 <i>Figure 1: Comparative RL Algorithms – Actor-Critic, PPO, GRPO</i>
 </p>
 
-Highlights
-Three RL algorithms implemented: Actor-Critic, PPO, GRPO
+## Highlights
 
-Benchmarks on CartPole and LunarLander environments
+- Three RL algorithms implemented: **Actor-Critic**, **PPO**, **GRPO**
 
-Application of PPO & GRPO to Language Modeling (DistilGPT2)
+- Benchmarks on **CartPole** and **LunarLander-v3** environments
 
-Comparative analysis: convergence, robustness, efficiency
+- Application of PPO & GRPO to **Language Modeling** (DistilGPT2)
 
-Visualizations of learning curves and performance metrics
+- Comparative analysis: convergence, robustness, efficiency
 
-📂 Project Structure
+- Visualizations of **learning curves** and **performance metrics**
+
+## Project Structure
+
 Code
 src/actor_critic/   → Actor-Critic implementation
 src/ppo/            → PPO implementation (RL and LM)
@@ -31,16 +35,19 @@ analysis/           → Scripts for results analysis
 notebooks/          → Comparison and visualization notebooks
 models/             → Trained models (CartPole, LunarLander, DistilGPT2)
 references/         → Bibliography and related articles
-⚡ Technologies
-Python (PyTorch, NumPy, Matplotlib)
 
-Gymnasium / OpenAI Gym for RL environments
+## Technologies
 
-Weights & Biases (wandb) for experiment tracking
+- Python (PyTorch, NumPy, Matplotlib)
 
-Jupyter Notebooks for analysis and visualization
+- Gymnasium / OpenAI Gym for RL environments
 
-🚀 Quick Start
+- Weights & Biases (wandb) for experiment tracking
+
+- Jupyter Notebooks for analysis and visualization
+
+## Quick Start
+
 bash
 # 1. Clone the repository
 git clone https://github.com/williamsassa/A-Comparative-Study-of-Reinforcement-Learning-Algorithms-Actor-Critic-PPO-and-GRPO.git
