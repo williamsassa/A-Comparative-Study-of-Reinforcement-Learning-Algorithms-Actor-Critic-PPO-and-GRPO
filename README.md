@@ -50,23 +50,38 @@ references/         → Bibliography and related articles
 
 bash
 # 1. Clone the repository
+```bash
 git clone https://github.com/williamsassa/A-Comparative-Study-of-Reinforcement-Learning-Algorithms-Actor-Critic-PPO-and-GRPO.git
 cd A-Comparative-Study-of-Reinforcement-Learning-Algorithms-Actor-Critic-PPO-and-GRPO
+```
 
 # 2. Create and activate a virtual environment
+```bash
 python -m venv venv
+```
+
+```bash
 source venv/bin/activate    # Linux / macOS
+```
+
+```bash
 venv\Scripts\activate       # Windows
+```
 
 # 3. Install dependencies
+```bash
 pip install -r requirements.txt
+```
 
 # 4. Run experiments
+```bash
 python src/actor_critic/train.py   # Actor-Critic
 python src/ppo/train.py            # PPO
 python src/grpo/train.py           # GRPO
+```
 
 # 5. Analyze results
+
 jupyter notebook notebooks/
 Expected Results
 Comparative benchmarks across multiple RL environments
