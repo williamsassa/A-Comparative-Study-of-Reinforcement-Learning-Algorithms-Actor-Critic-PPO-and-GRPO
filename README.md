@@ -50,11 +50,11 @@ Actor-Critic vs PPO vs GRPO – Benchmarks in RL & NLP
 
 ## Technologies
 
-- Python (PyTorch, NumPy, Matplotlib)
+- Python (**PyTorch**, **NumPy**, **Matplotlib**)
 
-- Gymnasium / OpenAI Gym for RL environments
+- **Gymnasium** / **OpenAI Gym** for RL environments
 
-- Weights & Biases (wandb) for experiment tracking
+- Weights & Biases (**wandb**) for experiment tracking
 
 - Jupyter Notebooks for analysis and visualization
 
